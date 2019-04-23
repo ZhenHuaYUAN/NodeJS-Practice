@@ -2,7 +2,10 @@
   "name": "nodejs-practice",
   "version": "1.0.0",
   "description": "nodeJS-practice",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin":{
+    "anydoor":"bin/anydoor"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
@@ -19,7 +22,8 @@
   },
   "homepage": "https://github.com/ZhenHuaYUAN/NodeJS-Practice#readme",
   "dependencies": {
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "yargs": "^13.2.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
