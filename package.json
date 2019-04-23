@@ -8,10 +8,6 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "pre-commit": [
-    "fix",
-    "lint"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ZhenHuaYUAN/NodeJS-Practice.git"
@@ -26,6 +22,8 @@
     "pre-commit": "^1.2.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
     "pre-commit": "^1.2.2"
   }
 }
